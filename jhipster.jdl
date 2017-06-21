@@ -2,7 +2,7 @@
 
 entity Branch {
 	branchName String
-} 
+}
 
 
 entity Patient {
@@ -13,9 +13,12 @@ relationship OneToMany {
 }
 
 entity Monthlymedicines {
-	monthyear String
+	monthyear MonthYear
 }
 
+enum MonthYear {
+	Feb2017, Mar2017, Apr2017, May2017, June2017, July2017, Aug2017
+}
 
 relationship OneToMany {
 	Patient { monthyear} to Monthlymedicines{patient(patientName)}
