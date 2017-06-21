@@ -12,5 +12,5 @@ $ ./gradlew
 ```
 
 
-![alt text][entityModel]
-[entityModel]: https://github.com/adhulappanavar/jhip-advantage/blob/master/AdvantageElderCareEntityModel.png "Entity Model"
+[![mutt dark](https://github.com/adhulappanavar/jhip-advantage/blob/master/AdvantageElderCareEntityModel.png)](https://github.com/adhulappanavar/jhip-advantage/blob/master/AdvantageElderCareEntityModel.png)
+  
