@@ -1,0 +1,34 @@
+
+
+entity Branch {
+	branchName String
+} 
+
+
+entity Patient {
+	patientName String
+}
+relationship OneToMany {
+	Branch { patientName } to Patient {Branch(branchName)}
+}
+
+entity Monthlymedicines {
+	monthyear String
+}
+
+
+relationship OneToMany {
+	Patient { monthyear} to Monthlymedicines{patient(patientName)}
+}
+
+entity Medicine {
+	name String,
+    description String,
+    price BigDecimal
+}
+
+
+relationship OneToMany {
+	 Medicine {monthyear} to Monthlymedicines {medicine(name)}
+}
+
