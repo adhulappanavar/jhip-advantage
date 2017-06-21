@@ -11,6 +11,6 @@ Compile the code
 $ ./gradlew
 ```
 
-Reference-style: 
+
 ![alt text][enitityModel]
 [entityModel]: https://github.com/adhulappanavar/jhip-advantage/blob/master/AdvantageElderCareEntityModel.png "Entity Model"
