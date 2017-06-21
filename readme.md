@@ -10,3 +10,7 @@ Compile the code
 ```sh
 $ ./gradlew
 ```
+
+Reference-style: 
+![alt text][enitityModel]
+[entityModel]: https://github.com/adhulappanavar/jhip-advantage/blob/master/AdvantageElderCareEntityModel.png "Entity Model"
