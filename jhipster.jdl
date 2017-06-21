@@ -17,7 +17,7 @@ entity Monthlymedicines {
 }
 
 enum MonthYear {
-	Feb2017, Mar2017, Apr2017, May2017, June2017, July2017, Aug2017
+	FEB2017, MAR2017, MAY2017, JUN2017, JUL2017
 }
 
 relationship OneToMany {
